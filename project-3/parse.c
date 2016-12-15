@@ -31,7 +31,9 @@ int main(int argc, char **argv) {
 		fprintf(stderr, "usage: a.out filename\n");
 		exit(1);
 	}
-	pr_exp(stdout, parse(argv[1]), 0);
+	//pr_exp(stdout, parse(argv[1]), 0);
+	A_exp absyn_in=parse(argv[1]);
+	SEM_transProg(absyn_in);
 	printf("\n");
 	return 0;
 }

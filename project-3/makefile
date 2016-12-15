@@ -54,4 +54,4 @@ util.o: util.c util.h
 
 clean: 
 #	rm -f a.out util.o parsetest.o lex.yy.o errormsg.o y.tab.c y.tab.h y.tab.o
-	rm -f a.out  y.tab.o lex.yy.o errormsg.o absyn.o prabsyn.o symbol.o parse.o table.o util.o types.o y.tab.c env.o semant.o  y.tab.h
+	rm -f a.out  y.tab.o lex.yy.o errormsg.o absyn.o prabsyn.o symbol.o parse.o table.o util.o types.o env.o semant.o

@@ -1,11 +1,8 @@
 #ifndef SEMANT_H
 #define SEMANT_H
 
-#include <stdio.h>
-#include "util.h"
-#include "symbol.h"
-#include "types.h"
-#include "absyn.h"
+// removing other includes to avoid struct redefinition problem
+#include "env.h"
 
 typedef void *Tr_exp;
 
@@ -13,7 +10,6 @@ struct expty {
 	Tr_exp exp;
 	Ty_ty ty;
 };
-
 
 struct expty expTy(Tr_exp exp, Ty_ty ty);
 

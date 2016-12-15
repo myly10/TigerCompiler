@@ -2,8 +2,8 @@
 
 BIN=a.out
 PROJDIR=project-3
-REFOUTDIR=../refs-3
-TESTCASEDIR=../testcases
+REFOUTDIR=refs-3
+TESTCASEDIR=testcases
 DIFFOPTION="-w -B"
 
 rm -f _tmp.txt .tmp.txt	
